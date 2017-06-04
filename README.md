@@ -6,7 +6,7 @@
 - [DDoS](./ddos/README.md)
 - [Security Cheatsheets](./security-cheatsheets)
 - [IoT](#iot)
-- [Cources](#courses)
+- [Cources](#cources)
 - [Resources](#resources)
 
 
