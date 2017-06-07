@@ -5,6 +5,7 @@
 * [1. some basics](1-some-basics.md)
 * [2. function-prologue-and-epilogue](2-function-prologue-and-epilogue.md)
 * [3. stack](3-stack.md)
+* [4. printf-with-several-arguments](4-printf-with-several-arguments.md)
 
 
 ## [Reverse Engineering](https://en.wikipedia.org/wiki/Reverse_engineering)
