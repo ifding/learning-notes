@@ -48,7 +48,7 @@ add esp, 12 ; 4*3=12
 ```
 
 Callee functions get their arguments via the stack pointer. This is how the argument values are located in the stack before the execution of the `f()` function's very first instruction:
-|         |                                    |
+
 | ------- |:----------------------------------:|
 | ESP     | return address                     |
 | ESP+4   | argument#1, marked in IDA as arg_0 |

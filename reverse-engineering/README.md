@@ -6,7 +6,8 @@
 * [2. function-prologue-and-epilogue](2-function-prologue-and-epilogue.md)
 * [3. stack](3-stack.md)
 * [4. printf-with-several-arguments](4-printf-with-several-arguments.md)
-
+* [5. scanf](5-scanf.md)
+* [6. accessing passed arguments](6-accessing-passed-arguments.md)
 
 ## [Reverse Engineering](https://en.wikipedia.org/wiki/Reverse_engineering)
 * [Software cracking](https://en.wikipedia.org/wiki/Software_cracking)

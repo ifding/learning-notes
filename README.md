@@ -2,6 +2,7 @@
 
 - [Malware Analysis](./malware-analysis/README.md)
 - [Reverse Engineering](./reverse-engineering/README.md)
+- [Radare2](./radare2/README.md)
 - [Hacking](./hacking/README.md)
 - [DDoS](./ddos/README.md)
 - [Security Cheatsheets](./security-cheatsheets)
