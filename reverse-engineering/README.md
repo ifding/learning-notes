@@ -25,6 +25,14 @@
 * Tools: [Radare2](http://rada.re/r/index.html), [dnSpy](https://github.com/0xd4d/dnSpy), 
 * Resources: [Awesome-Reversing](https://github.com/tylerph3/awesome-reversing), [Reverse Engineering Malware 101](https://securedorg.github.io/RE101/)
 
+## Practical
+
+* [Practical Reverse Engineering Part 1 - Hunting for Debug Ports](http://jcjc-dev.com/2016/04/08/reversing-huawei-router-1-find-uart/)
+* [Practical Reverse Engineering Part 2 - Scouting the Firmware](http://jcjc-dev.com/2016/04/29/reversing-huawei-router-2-scouting-firmware/)
+* [Practical Reverse Engineering Part 3 - Following the Data](http://jcjc-dev.com/2016/05/23/reversing-huawei-3-sniffing/)
+* [Practical Reverse Engineering Part 4 - Dumping the Flash](http://jcjc-dev.com/2016/06/08/reversing-huawei-4-dumping-flash/)
+* [Practical Reverse Engineering Part 5 - Digging Through the Firmware](http://jcjc-dev.com/2016/12/14/reversing-huawei-5-reversing-firmware/)
+
 
 ## Resources
 

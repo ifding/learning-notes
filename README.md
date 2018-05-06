@@ -12,6 +12,7 @@
 
 
 ## IoT
+
 * [Security issue of IoT](security-issue-of-iot.md)
 * [A Raspberry Pi Hacker Tools suite](https://github.com/vay3t/hax0rpi)
 * [telnet-scanner](https://github.com/scu-igroup/telnet-scanner)
@@ -19,7 +20,13 @@
 * [A Collection of Hacks in IoT Space](https://github.com/nebgnahz/awesome-iot-hacks)
 * [A curated list of resources for learning about vehicle security and car hacking](https://github.com/jaredthecoder/awesome-vehicle-security)
 
+### Dynamic analysis of Linux-based firmware
+* [System for emulation and dynamic analysis of Linux-based firmware](https://github.com/firmadyne/firmadyne)
+* [Toolkit to emulate firmware and analyse it for security vulnerabilities](https://github.com/attify/firmware-analysis-toolkit)
+
+
 ## Cources
+
 * [A curated list of awesome infosec courses and training resources](https://github.com/onlurking/awesome-infosec)
 * [Offensive Security 2013 - FSU](http://www.cs.fsu.edu/~redwood/OffensiveSecurity/lectures.html)
 - [various security courses, presentation etc](https://github.com/kramse/security-courses)
