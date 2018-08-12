@@ -1,38 +1,37 @@
-# Security
+Linux Security
 
 - [Malware Analysis](./malware-analysis/README.md)
 - [Reverse Engineering](./reverse-engineering/README.md)
-- [Radare2](./radare2/README.md)
+- [Radare2](https://github.com/ifding/radare2-tutorial)
 - [Hacking](./hacking/README.md)
 - [DDoS](./ddos/README.md)
 - [Security Cheatsheets](./security-cheatsheets)
-- [IoT](#iot)
+- [IoT](./iot-security.md)
 - [Cources](#cources)
 - [Resources](#resources)
 
 
-## IoT
+### Notes
 
-* [Security issue of IoT](security-issue-of-iot.md)
-* [A Raspberry Pi Hacker Tools suite](https://github.com/vay3t/hax0rpi)
-* [telnet-scanner](https://github.com/scu-igroup/telnet-scanner)
-* [Windows 10 IoT Core Security](https://github.com/ms-iot/security)
-* [A Collection of Hacks in IoT Space](https://github.com/nebgnahz/awesome-iot-hacks)
-* [A curated list of resources for learning about vehicle security and car hacking](https://github.com/jaredthecoder/awesome-vehicle-security)
+* [Understanding Linux Malware](http://www.s3.eurecom.fr/~yanick/publications/2018_oakland_linuxmalware.pdf)
+* [linux-kernel-exploitation](https://github.com/xairy/linux-kernel-exploitation)
+* [learning notes about Linux Security](https://github.com/JnuSimba/LinuxSecNotes)
 
-### Dynamic analysis of Linux-based firmware
+> Dynamic analysis of Linux-based firmware
+
 * [System for emulation and dynamic analysis of Linux-based firmware](https://github.com/firmadyne/firmadyne)
 * [Toolkit to emulate firmware and analyse it for security vulnerabilities](https://github.com/attify/firmware-analysis-toolkit)
 
 
-## Cources
+### Cources
 
 * [A curated list of awesome infosec courses and training resources](https://github.com/onlurking/awesome-infosec)
 * [Offensive Security 2013 - FSU](http://www.cs.fsu.edu/~redwood/OffensiveSecurity/lectures.html)
-- [various security courses, presentation etc](https://github.com/kramse/security-courses)
+* [various security courses, presentation etc](https://github.com/kramse/security-courses)
 * [Greaty security list for fun and profit](https://github.com/zbetcheckin/Security_list)
 
-## Resources
+
+### Resources
 
 * [Free Security and Hacking eBooks](https://github.com/Hack-with-Github/Free-Security-eBooks)
 * [Practical Malware Analysis Starter Kit](https://bluesoul.me/practical-malware-analysis-starter-kit/)

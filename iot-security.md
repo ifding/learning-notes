@@ -1,11 +1,31 @@
-Security Issue of IoT
+
+IoT Security
+
+
+
+### Collection
+
+* [A Raspberry Pi Hacker Tools suite](https://github.com/vay3t/hax0rpi)
+* [telnet-scanner](https://github.com/scu-igroup/telnet-scanner)
+* [Windows 10 IoT Core Security](https://github.com/ms-iot/security)
+* [A Collection of Hacks in IoT Space](https://github.com/nebgnahz/awesome-iot-hacks)
+* [A curated list of resources for learning about vehicle security and car hacking](https://github.com/jaredthecoder/awesome-vehicle-security)
+
+
+
+### Summary
+
+* side-channel analysis:
+
 =========
 >02-06-2017
 
-### side-channel analysis:
 Electronic circuits produce a variety of emissions as byproducts of their processing that make it possible for an attacker without detailed knowledge of the actual structure of the circuitry itself to deduce what data it is processing. Heat and electromagnetic emissions are both viable sources of information for an attacker. As these emissions are side effects of operation, the use of them to perform reverse engineering has earned the term ‘side-channel analysis’.
 
-### Monitoring Side-Channel Signals Could Detect Malicious Software on IoT Devices
+* Monitoring Side-Channel Signals Could Detect Malicious Software on IoT Devices
+
+=========
+>02-06-2017
 
 The development of a new technique for wirelessly monitoring Internet of Things (IoT) devices for malicious software – without affecting the operation of the ubiquitous but low-power equipment
 
