@@ -1,0 +1,87 @@
+Install DCOS on CentOS
+
+* Install CentOS for each machine (ensure can ssh to each machine )
+	1)Bootstrap Node
+		*Install pip, virtualenv
+			$ sudo yum -y install epel-release
+			$ sudo yum -y install python-pip
+			$ sudo pip install virtualenv
+		*Create ssh key and copy to cluster node:
+			$ ssh-keygen -t rsa
+			$ ssh-copy-id <username>@<cluster_node>
+			OR
+			$ cat ~/.ssh/id_rsa.pub | ssh username@remote_host "mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys"
+
+	2)Cluster Node
+		*Disable sudo password
+			add the following at the end of /etc/sudoers
+			%wheel ALL=(ALL) NOPASSWD: ALL			
+			<username> ALL=(ALL) NOPASSWD: ALL
+
+* Install Docker on CentOS for each machine
+
+       	1) Upgrade CentOS to 7.2: 
+		$ sudo yum upgrade --assumeyes --tolerant
+		$ sudo yum update --assumeyes
+		
+	2) Verify that the kernel is at least 3.10: 
+		$ uname -r
+		3.10.0-327.10.1.el7.x86_64
+
+	3) Enable OverlayFS:
+$ sudo tee /etc/modules-load.d/overlay.conf <<-'EOF'
+overlay
+EOF
+		
+	4) Reboot to reload kernel modules:
+		$ reboot
+
+	5) Verify that OverlayFS is enabled:
+$ lsmod | grep overlay
+overlay
+
+	6) Configure yum to use the Docker yum repo:
+$ sudo tee /etc/yum.repos.d/docker.repo <<-'EOF'
+[dockerrepo]
+name=Docker Repository
+baseurl=https://yum.dockerproject.org/repo/main/centos/$releasever/
+enabled=1
+gpgcheck=1
+gpgkey=https://yum.dockerproject.org/gpg
+EOF
+
+	7) Configure systemd to run the Docker Daemon with OverlayFS:
+$ sudo mkdir -p /etc/systemd/system/docker.service.d && sudo tee /etc/systemd/system/docker.service.d/override.conf <<- EOF
+[Service]
+ExecStart=
+ExecStart=/usr/bin/docker daemon --storage-driver=overlay -H fd://
+EOF
+
+	8) Install the Docker engine, daemon, and service:
+		$ sudo yum install -y https://yum.dockerproject.org/repo/main/centos/7/Packages/docker-engine-1.11.2-1.el7.centos.x86_64.rpm
+		$ sudo systemctl start docker
+		$ sudo systemctl enable docker
+		Complete!
+		Created symlink from /etc/systemd/system/multi-user.target.wants/docker.service to /usr/lib/systemd/system/docker.service.
+
+	9) Test that Docker is properly installed:
+		$ docker info
+
+3. Enable NTP
+   Network Time Protocol (NTP) must be enabled on all nodes for clock synchronization
+$ yum install ntp
+
+* Firewall must be stopped and disabled: 
+	$ sudo systemctl stop firewalld && sudo systemctl disable firewalld
+
+* Bootstrap Node:
+	$ sudo docker pull nginx
+* Cluster Node:
+	* Install data compression tool:  
+		$ sudo yum install -y tar xz unzip curl ipset
+	* Update permissions[1]:
+$ sudo sed -i s/SELINUX=enforcing/SELINUX=permissive/g /etc/selinux/config &&
+sudo groupadd nogroup &&
+sudo sysctl -w net.ipv6.conf.all.disable_ipv6=1 &&
+sudo sysctl -w net.ipv6.conf.default.disable_ipv6=1 &&
+sudo reboot

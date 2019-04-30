@@ -1,0 +1,81 @@
+(* file: sde3.caml *)
+(* Fei Ding *)
+(* 11/30/2016 *)
+
+let rec minSet a b =
+  match a with [] -> []
+    | (x1, y1) :: t1 -> (
+    match b with [] -> []
+      | (x2, y2) :: t2 -> 
+        if x1= x2 then (x1, (min y1 y2)) :: (minSet t1 t2)
+        else failwith "problem with singleton list element(s)"
+    )
+;;
+
+let rec maxSet a b =
+  match a with [] -> []
+    | (x1, y1) :: t1 -> (
+    match b with [] -> []
+      | (x2, y2) :: t2 ->
+        if x1= x2 then (x1, (max y1 y2)) :: (maxSet t1 t2)
+        else failwith "problem with singleton list element(s)"
+    )
+;;
+
+let set_intersect mu1 mu2 =
+  match mu1 with 
+    | ((a1,b1), [] ) -> ((a1,b1),[])
+    | ((a1, b1), ((c1, d1):: t1)) -> (
+    match mu2 with 
+      | ((a2,b2), [] ) -> ((a2,b2),[])
+      | ((a2, b2), ((c2,d2) :: t2)) ->
+        if a1 = a2 && b1 = b2  && List.length(t1) = List.length(t2)
+          then 
+            if c1 = c2 then ((a1, b1), (c1, (min d1 d2)) :: (minSet t1 t2))
+            else failwith "problem with singletion list element(s)"
+        else failwith "problem with domain or list length"
+    )
+;;
+
+let set_union mu1 mu2 =
+  match mu1 with
+    | ((a1,b1), [] ) -> ((a1,b1),[])
+    | ((a1, b1), ((c1, d1):: t1)) -> (
+    match mu2 with
+      | ((a2,b2), [] ) -> ((a2,b2),[])
+      | ((a2, b2), ((c2,d2) :: t2)) ->
+        if a1 = a2 && b1 = b2  && List.length(t1) = List.length(t2)
+          then
+            if c1 = c2 then ((a1, b1), (c1, (max d1 d2)) :: (maxSet t1 t2))
+            else failwith "problem with singletion list element(s)"
+        else failwith "problem with domain or list length"
+    )
+;;
+
+let rec compl list1 =
+  match list1 with
+  | [] -> []
+  | (x,y) :: t -> (x, (1. -. y)) :: (compl t)
+;;
+
+
+let set_compl mu =
+  match mu with
+  | (x, []) -> failwith "problem with domain or list length"
+  | (x, (y,z) :: t) ->
+      (x, (y, (1. -. z)) :: (compl t))
+;;
+
+let rec somewhat list2 =
+  match list2 with
+  | [] -> []
+  | (x,y) :: t -> (x, (y ** 0.333)) :: (somewhat t)
+;;
+
+let set_somewhat mu =
+  match mu with
+  | (x, []) -> failwith "problem with domain or list length"
+  | (x, (y,z) :: t) ->
+      (x, (y, (z ** 0.333)) :: (somewhat t))
+;;
+

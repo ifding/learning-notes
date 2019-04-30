@@ -1,0 +1,12 @@
+---
+# Use this bootstrap_url value unless you have moved the DC/OS installer assets.
+bootstrap_url: http://10.11.10.15:8848
+cluster_name: 'dcos'
+exhibitor_storage_backend: static
+ip_detect_filename: /genconf/ip-detect
+master_discovery: static
+master_list:
+- 10.11.10.12
+resolvers:
+- 10.11.10.5
+- 8.8.8.8
