@@ -8,7 +8,9 @@
     - [CPP](./programming/cpp/README.md)
     - [Python](./programming/python/README.md)
     - [Java](./programming/java/README.md)
-    - [Perl](./programming/perl/README.md)
+    - Go
+    - Rust
+    - [Julia](https://github.com/ifding/deep-learning-julia)
     - [Ocaml](./programming/ocaml/README.txt)
     - [Compiler](./programming/compiler/README.md)
 - [Systems](./systems/README.md)
@@ -18,7 +20,6 @@
     - [Cloud](./systems/cloud/README.md)
     - [Big Data](./systems/bigData/README.md)
     - [Distributed and cluster computing](./computing/README.md)
-- [Network](./network/README.md)
 - Security
     - [Malware Analysis](./security/malware-analysis/README.md)
     - [Reverse Engineering](./security/reverse-engineering/README.md)
@@ -29,10 +30,22 @@
     - [IoT](./security/iot-security.md)
 - [Machine Learning](./machine-learning/README.md)
 - [Maths](./maths/README.md)
+
+
+## Resources
+
+* [why_functional_programming](./programming/why_functional_programming.md)
+- [Go](https://github.com/uhub/awesome-go)
+- [Scala](https://github.com/uhub/awesome-scala)
+- [Haskell](https://github.com/uhub/awesome-haskell)
+- [Erlang](https://github.com/uhub/awesome-erlang)
 - Courses
   * [Computer Science Courses](computer-science-courses.md)
   * [List of awesome university courses for learning Computer Science](https://github.com/prakhar1989/awesome-courses)
   * [List of Computer Science courses with video lectures](https://github.com/Developer-Y/cs-video-courses)
+
+
+
 
 
 <br>
