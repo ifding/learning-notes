@@ -4,8 +4,8 @@
 - [Algorithm](./algorithm/README.md)
 - [Programming](./programming/README.md)
     - [Assembly](./programming/assembly/README.md)
-    - [C](./programming/c/README.md)
-    - [CPP](./programming/cpp/README.md)
+    - [C/CPP](./programming/c-cpp/README.md)
+    - [modern CPP](./programming/modern-cpp/README.md)
     - [Python](./programming/python/README.md)
     - [Java](./programming/java/README.md)
     - Go
