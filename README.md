@@ -28,8 +28,12 @@
     - [DDoS](./security/ddos/README.md)
     - [Security Cheatsheets](./security-cheatsheets)
     - [IoT](./security/iot-security.md)
+
+## Machine Learning
 - [Machine Learning](./machine-learning/README.md)
 - [Maths](./maths/README.md)
+- Pattern_Recognition_And_Machine_Learning
+    - [Ch1 Introduction](./PRML/ch1.pdf)
 
 
 ## Resources

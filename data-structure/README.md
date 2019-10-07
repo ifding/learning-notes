@@ -8,11 +8,11 @@
 
 * [Stacks and Queues](stacks_and_queues.md)
 * Array
-* Linked List
+* [Linked List](linked_list)
 * String
-* Hash Table
+* [Hash Table](hash_table)
+* [BST](bst)
 * Stack
 * Heap
 * Graph
-* Tree
 * Bit Manipulation

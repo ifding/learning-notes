@@ -15,6 +15,8 @@
 * Backtracking
 
 ### 3. Sorting
+* [sort and scan](sort_and_scan)
+* [inverse quicksort](adversarial_input)
 
 ### 4. Binary Search
 
@@ -27,5 +29,5 @@
 * Greedy algorithm
 
 ### 7. PageRank
-* [PageRank and Map-Reduce Implement (Chinese)](http://www.cnblogs.com/fengfenggirl/p/pagerank-introduction.html)
+* [mini web search engine](mini_web_search_engine)
 
