@@ -30,10 +30,13 @@
     - [IoT](./security/iot-security.md)
 
 ## Machine Learning
-- [Machine Learning](./machine-learning/README.md)
 - [Maths](./maths/README.md)
-- Pattern_Recognition_And_Machine_Learning
+- [Variational Autoencoders](./machine-learning/VAE.pdf), from [Amine M‘Charrak](https://pub.tik.ee.ethz.ch/students/2018-FS/MA-2018-22.pdf)
+- [Machine Learning](./machine-learning/README.md)
+- Pattern Recognition And Machine Learning
     - [Ch1 Introduction](./PRML/ch1.pdf)
+    - [Ch2 Probability Distributions](./PRML/ch2.pdf)
+    - [code and notebooks for Pattern Recognition and Machine Learning](https://github.com/gerdm/prml)
 
 
 ## Resources
@@ -41,8 +44,6 @@
 * [why_functional_programming](./programming/why_functional_programming.md)
 - [Go](https://github.com/uhub/awesome-go)
 - [Scala](https://github.com/uhub/awesome-scala)
-- [Haskell](https://github.com/uhub/awesome-haskell)
-- [Erlang](https://github.com/uhub/awesome-erlang)
 - Courses
   * [Computer Science Courses](computer-science-courses.md)
   * [List of awesome university courses for learning Computer Science](https://github.com/prakhar1989/awesome-courses)

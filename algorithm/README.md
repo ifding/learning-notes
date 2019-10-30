@@ -18,7 +18,9 @@
 * [sort and scan](sort_and_scan)
 * [inverse quicksort](adversarial_input)
 
-### 4. Binary Search
+### 4. STL Practice
+* [Finding the Closest Pair of Points](Finding_the_Closest_Pair_of_Points)
+* [Traveling Salesman Problem](Traveling_Salesman_Problem)
 
 ### 5. BFS & DFS
 * [Dijkstra]
