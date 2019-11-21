@@ -31,12 +31,13 @@
 
 ## Machine Learning
 - [Maths](./maths/README.md)
-- [Variational Autoencoders](./machine-learning/VAE.pdf), from [Amine M‘Charrak](https://pub.tik.ee.ethz.ch/students/2018-FS/MA-2018-22.pdf)
 - [Machine Learning](./machine-learning/README.md)
+- [Variational Autoencoders](./machine-learning/VAE.pdf), from [Amine M‘Charrak](https://pub.tik.ee.ethz.ch/students/2018-FS/MA-2018-22.pdf)
+- [VAE and ELBO surgery](./machine-learning/Autoencoder.pdf)
 - Pattern Recognition And Machine Learning
     - [Ch1 Introduction](./PRML/ch1.pdf)
-    - [Ch2 Probability Distributions](./PRML/ch2.pdf)
-    - [code and notebooks for Pattern Recognition and Machine Learning](https://github.com/gerdm/prml)
+    - [Ch2 Probability Distributions](./PRML/ch2.pdf) 
+- [Code and Notebooks for Pattern Recognition and Machine Learning](https://github.com/gerdm/prml)
 
 
 ## Resources
