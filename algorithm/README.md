@@ -23,12 +23,13 @@
 * [Traveling Salesman Problem](Traveling_Salesman_Problem)
 
 ### 5. BFS & DFS
-* [Dijkstra]
+* [Dijkstra](Shortest_Paths_Across_Campus)
 
 
 ### 6. Optimization
 * [Dynamic Programming – From Novice to Advanced](https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/)
 * Greedy algorithm
+* [Iterative Refinement and Recursive Search](Iterative_Refinement_and_Recursive_Search)
 
 ### 7. PageRank
 * [mini web search engine](mini_web_search_engine)
