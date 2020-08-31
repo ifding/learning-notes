@@ -25,6 +25,7 @@
 * [Virtual functions](./cpp/virtual_functions.md)
 * [Explicit](./cpp/explicit.md)
 * [Difference between emplace_back and push_back](./cpp/difference-between-emplace_back-and-push_back-function.md)
+* [C++ Class Templates](./cpp/templates.md)
 
 ### C++ Primer Plus
 
@@ -37,4 +38,6 @@
 
 ### Resources
 
+* [modern CPP](./modern-cpp.md)
 * [A curated list of awesome C++ frameworks, libraries and software](https://github.com/uhub/awesome-cpp)
+* [Stanford cs106l course reader](https://web.stanford.edu/class/archive/cs/cs106l/cs106l.1184/handouts/full_course_reader.pdf)

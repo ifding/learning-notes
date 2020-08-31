@@ -5,11 +5,9 @@
 - [Programming](./programming/README.md)
     - [Assembly](./programming/assembly/README.md)
     - [C/CPP](./programming/c-cpp/README.md)
-    - [modern CPP](./programming/modern-cpp/README.md)
     - [Python](./programming/python/README.md)
     - [Java](./programming/java/README.md)
     - Go
-    - Rust
     - [Julia](https://github.com/ifding/deep-learning-julia)
     - [Ocaml](./programming/ocaml/README.txt)
     - [Compiler](./programming/compiler/README.md)
@@ -36,11 +34,11 @@
 - [Variational Autoencoders](./machine-learning/VAE.pdf), from [Amine M‘Charrak](https://pub.tik.ee.ethz.ch/students/2018-FS/MA-2018-22.pdf)
 - [VAE and ELBO surgery](./machine-learning/Autoencoder.pdf)
 - Pattern Recognition And Machine Learning
-    - [Ch1 Introduction](./PRML/ch1.pdf)
-    - [Ch2 Probability Distributions](./PRML/ch2.pdf) 
-    - [Ch3 Linear Models for Regression and Classification](./PRML/ch3.pdf)     
-    - [Ch5 Neural Networks](./PRML/ch5.pdf)     
-    - [Ch8 Graphical Models](./PRML/ch8.pdf)   
+    - [Ch1 Introduction](./machine-learning/PRML/ch1.pdf)
+    - [Ch2 Probability Distributions](./machine-learning/PRML/ch2.pdf) 
+    - [Ch3 Linear Models for Regression and Classification](./machine-learning/PRML/ch3.pdf)     
+    - [Ch5 Neural Networks](./machine-learning/PRML/ch5.pdf)     
+    - [Ch8 Graphical Models](./machine-learning/PRML/ch8.pdf)   
     - [Ch9 Mixture Models and EM](./PRML/ch9.pdf)                
 - [Code and Notebooks for Pattern Recognition and Machine Learning](https://github.com/gerdm/prml)
 
