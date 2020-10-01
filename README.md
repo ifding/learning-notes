@@ -3,12 +3,11 @@
 - [Data Structure](./data-structure/README.md)
 - [Algorithm](./algorithm/README.md)
 - [Programming](./programming/README.md)
-    - [Assembly](./programming/assembly/README.md)
     - [C/CPP](./programming/c-cpp/README.md)
     - [Python](./programming/python/README.md)
+    - [Go](./programming/go/README.md)
     - [Java](./programming/java/README.md)
-    - Go
-    - [Julia](https://github.com/ifding/deep-learning-julia)
+    - [Assembly](./programming/assembly/README.md)
     - [Ocaml](./programming/ocaml/README.txt)
     - [Compiler](./programming/compiler/README.md)
 - [Systems](./systems/README.md)
@@ -31,6 +30,7 @@
 
 - [Maths](./maths/README.md)
 - [Machine Learning](./machine-learning/README.md)
+- [Deep Learning](./deep-learning/README.md)
 - [Variational Autoencoders](./machine-learning/VAE.pdf), from [Amine M‘Charrak](https://pub.tik.ee.ethz.ch/students/2018-FS/MA-2018-22.pdf)
 - [VAE and ELBO surgery](./machine-learning/Autoencoder.pdf)
 - Pattern Recognition And Machine Learning
@@ -46,7 +46,6 @@
 ## Resources
 
 - [why_functional_programming](./programming/why_functional_programming.md)
-- [Go](https://github.com/uhub/awesome-go)
 - Courses
   * [Computer Science Courses](computer-science-courses.md)
   * [List of awesome university courses for learning Computer Science](https://github.com/prakhar1989/awesome-courses)
