@@ -30,10 +30,10 @@ Maths
 - [Notes on some basic probability stuff](./some_probability_stuff.pdf)
 - [Gaussian Mixture Models](./gaussian-mixture-models.md)
 
+
+### Resources
+
 * [Introduction to Probability and Statistics](https://ocw.mit.edu/courses/mathematics/18-05-introduction-to-probability-and-statistics-spring-2014/) - MIT Undergraduate Course
 * [Visualizing Bayes Theorem]( <https://oscarbonilla.com/2009/05/visualizing-bayes-theorem/>)
-
-
-## Other's Collections
-
-- [Agustinus Kristiadi's Blog](http://wiseodd.github.io)
+* [18.065: Matrix Methods in Data Analysis, Signal Processing, and Machine Learning](https://github.com/ws13685555932/18.065_lecture_notes)
+* [Agustinus Kristiadi's Blog](http://wiseodd.github.io)

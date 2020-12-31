@@ -41,6 +41,7 @@
     - [Ch8 Graphical Models](./machine-learning/PRML/ch8.pdf)   
     - [Ch9 Mixture Models and EM](./PRML/ch9.pdf)                
 - [Code and Notebooks for Pattern Recognition and Machine Learning](https://github.com/gerdm/prml)
+- [Reinforcement Learning](./reinforcement-learning/README.md)
 
 
 ## Resources
