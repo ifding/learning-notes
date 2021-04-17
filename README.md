@@ -4,6 +4,7 @@
 - [Algorithm](./algorithm/README.md)
 - [Programming](./programming/README.md)
     - [C/CPP](./programming/c-cpp/README.md)
+    - [CPP projects](./programming/cpp-projects)
     - [Python](./programming/python/README.md)
     - [Go](./programming/go/README.md)
     - [Java](./programming/java/README.md)
@@ -42,7 +43,7 @@
     - [Ch9 Mixture Models and EM](./PRML/ch9.pdf)                
 - [Code and Notebooks for Pattern Recognition and Machine Learning](https://github.com/gerdm/prml)
 - [Reinforcement Learning](./reinforcement-learning/README.md)
-
+- [Image Processing 100 Questions](https://github.com/gzr2017/ImageProcessing100Wen)
 
 ## Resources
 
