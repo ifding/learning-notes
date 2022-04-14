@@ -3,9 +3,9 @@
 - [Data Structure](./data-structure/README.md)
 - [Algorithm](./algorithm/README.md)
 - [Programming](./programming/README.md)
-    - [C/CPP](./programming/c-cpp/README.md)
-    - [CPP projects](./programming/cpp-projects)
+    - [C/C++](./programming/c-cpp/README.md)
     - [Python](./programming/python/README.md)
+    - [Rust](./programming/Rust/README.md)
     - [Go](./programming/go/README.md)
     - [Java](./programming/java/README.md)
     - [Assembly](./programming/assembly/README.md)
@@ -18,6 +18,7 @@
     - [Cloud](./systems/cloud/README.md)
     - [Big Data](./systems/bigData/README.md)
     - [Distributed and cluster computing](./computing/README.md)
+    - [Machine Learning System Design](https://github.com/ifding/ml-system-design)
 - Security
     - [Malware Analysis](./security/malware-analysis/README.md)
     - [Reverse Engineering](./security/reverse-engineering/README.md)
@@ -44,6 +45,12 @@
 - [Code and Notebooks for Pattern Recognition and Machine Learning](https://github.com/gerdm/prml)
 - [Reinforcement Learning](./reinforcement-learning/README.md)
 - [Image Processing 100 Questions](https://github.com/gzr2017/ImageProcessing100Wen)
+
+## Data Engineer
+
+> roadmap: <https://github.com/datastacktv/data-engineer-roadmap>
+
+- [Workflow scheduling](data-engineer/workflow.md)
 
 ## Resources
 
